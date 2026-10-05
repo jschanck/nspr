@@ -396,6 +396,10 @@ struct _MDCVar {
     PRInt8 notused;
 };
 
+struct _MDSemaphore {
+    PRInt8 notused;
+};
+
 struct _MDThread {
     _PR_CONTEXT_TYPE context;
     int errcode;
