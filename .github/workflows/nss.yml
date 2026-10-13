@@ -15,7 +15,7 @@ concurrency:
 
 jobs:
   build-nss:
-    name: Build NSS against NSPR main
+    name: Build NSS against NSPR
     runs-on: ubuntu-latest
     steps:
       - name: Checkout NSPR
